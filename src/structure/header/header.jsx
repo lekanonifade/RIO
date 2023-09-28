@@ -10,7 +10,7 @@ export default function Header() {
                 <p><FontAwesomeIcon icon={faMoon} /></p>
                 <p><FontAwesomeIcon icon={faBell} /></p>
                 <p><FontAwesomeIcon icon={faEnvelope} /></p>
-                <img src="src/assets/images/header/lekan.png" className="w-10 h-10 -mt-1 rounded-full" />
+                <img src="../images/header/lekan.png" className="w-10 h-10 -mt-1 rounded-full" />
             </div>
         </div>
     )

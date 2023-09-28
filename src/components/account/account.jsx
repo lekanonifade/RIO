@@ -19,7 +19,7 @@ export default function Account() {
             <p className="font-bold mt-3">Edit Profile Information</p>
             <div className="flex gap-10 bg-white p-5 rounded-xl">
                 <div className="w-[15%]">
-                    <img src="src/assets/images/header/lekan.png" className=" rounded-full" />
+                    <img src="../images/header/lekan.png" className=" rounded-full" />
                 </div>
                 <div className="grid gap-10 w-[85%]">
                     <div className="grid grid-cols-2 gap-10">

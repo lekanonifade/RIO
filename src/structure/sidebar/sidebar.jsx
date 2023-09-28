@@ -20,7 +20,7 @@ export default function Sidebar() {
 
     return (
         <div className="p-3 bg-white fixed w-48 h-full">
-            <img src="src/assets/images/sidebar/logo.svg" alt="" />
+            <img src="../images/sidebar/logo.svg" alt="" />
             <div className="mt-20 mb-32">
                 {sidebar}
             </div>
