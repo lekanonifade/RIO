@@ -1,0 +1,48 @@
+/* src/index.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  background-color: #F2F2F2;
+}
+
+/* * {
+  border: 1px solid red;
+} */
+
+.plus {
+  background-color: white;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  border-radius: 100%;
+  aspect-ratio: 1/1;
+}
+
+.dollar1 {
+  background-color: #6956E5;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  border-radius: 100%;
+  aspect-ratio: 1/1;
+}
+
+.calender {
+  background-color: #06B496;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  border-radius: 100%;
+  aspect-ratio: 1/1;
+}
+
+.dollar2 {
+  background-color: #FF9D34;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  border-radius: 100%;
+  aspect-ratio: 1/1;
+}
