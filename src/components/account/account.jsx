@@ -1,6 +1,7 @@
 import React from "react";
 import accountData from "./accountData";
 import Accountprop from "./accountProps";
+import { Avatar, Image } from "@chakra-ui/react";
 
 export default function Account() {
     const account = accountData.map(item => {
@@ -19,7 +20,9 @@ export default function Account() {
             <p className="font-bold mt-3">Edit Profile Information</p>
             <div className="flex gap-10 bg-white p-5 rounded-xl">
                 <div className="w-[15%]">
-                    <img src="../images/header/lekan.png" className=" rounded-full" />
+                    {/* <img src="../images/header/lekan.png" className=" rounded-full" /> */}
+                    {/* <Avatar name="daffod" src="../images/header/lekan.png"></Avatar> */}
+                    <Image name="daffod" src="../images/header/lekan.png" className="rounded-full"></Image>
                 </div>
                 <div className="grid gap-10 w-[85%]">
                     <div className="grid grid-cols-2 gap-10">
