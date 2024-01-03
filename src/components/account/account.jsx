@@ -21,7 +21,6 @@ export default function Account() {
             <div className="flex gap-10 bg-white p-5 rounded-xl">
                 <div className="w-[15%]">
                     {/* <img src="../images/header/lekan.png" className=" rounded-full" /> */}
-                    {/* <Avatar name="daffod" src="../images/header/lekan.png"></Avatar> */}
                     <Image name="daffod" src="../images/header/lekan.png" className="rounded-full"></Image>
                 </div>
                 <div className="grid gap-10 w-[85%]">
