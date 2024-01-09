@@ -29,7 +29,7 @@ export default function Allsummary() {
                     <button className="border rounded-sm h-7 w-24 text-[#344ED1] bg-[#CFE2FC] border-[#344ED1]">Picked</button>
                     <button className="border rounded-sm h-7 w-24 text-[#ED1C24] bg-[#FBD0D1] border-[#ED1C24]">Canceled</button>
                 </div>
-                <input type="text" name="search" placeholder="Search..." className="rounded-xl w-56 p-3"/>
+                <input type="text" name="search" placeholder="Search..." className="rounded-xl w-56 p-3 border border-gray-300 outline-none"/>
             </div>
             <div className="grid gap-10 bg-white p-5 rounded-xl">
                 <div className="flex justify-between">
