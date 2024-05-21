@@ -4,7 +4,7 @@ export default function Parcel() {
     return (
         <div className="flex gap-10">
             <div className="w-[70%] h-full grid gap-5">
-                <p className="font-bold mt-3 mb-7">Add New Parcel (Personal)</p>
+                <p className="font-bold mt-3 mb-7 pl-5">Add New Parcel (Personal)</p>
                 <div className="flex gap-10 bg-white p-5 rounded-xl">
                     <div className="grid gap-10 w-full">
                         <div className="grid grid-cols-2 gap-10">
@@ -42,7 +42,7 @@ export default function Parcel() {
                 </div>
             </div>
             <div className="w-[30%] h-[30%] grid gap-5">
-                <p className="font-bold mt-3 mb-7">Delivery</p>
+                <p className="font-bold mt-3 mb-7 flex justify-end pr-5">Delivery</p>
                 <div className="bg-white p-5 rounded-xl">
                     <div className="flex justify-between p-1">
                         <p>Cash</p>

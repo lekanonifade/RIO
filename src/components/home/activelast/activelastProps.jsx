@@ -9,7 +9,7 @@ export default function Activelastprop(props) {
                 <div className="flex justify-between h-16">
                     <p className="w-40 mr-20">Name</p>
                     <p className="w-20 mr-10">Parcel ID</p>
-                    <p className="w-32">{props.activelastMoney}</p>
+                    <p className="w-32 flex justify-end">{props.activelastMoney}</p>
                 </div>
                 <div>
                     {props.activelastContainer.map(containerItem => {
@@ -20,7 +20,7 @@ export default function Activelastprop(props) {
                                     <p>{containerItem.activelastName}</p>
                                 </div>
                                 <p className="w-20 mr-10">{containerItem.activelastParcelID}</p>
-                                <p className=" w-32">{containerItem.activelastStatus}</p>
+                                <p className=" w-32 flex justify-end">{containerItem.activelastStatus}</p>
                             </div>
                         )
                     })}
